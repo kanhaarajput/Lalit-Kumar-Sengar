@@ -7,8 +7,8 @@ import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
-  description: 'A personal portfolio created with Next.js and Firebase.',
+  title: 'Lalit Kumar Sengar - Full Stack Developer',
+  description: 'A passionate Full Stack Developer specializing in modern web technologies and creating impactful digital experiences.',
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={cn('min-h-screen bg-background font-body antialiased')}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
