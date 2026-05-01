@@ -37,6 +37,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: '10mb',
     },
   },
+  serverExternalPackages: ['genkit', '@genkit-ai/core', '@genkit-ai/firebase', '@opentelemetry/exporter-jaeger'],
 };
 
 export default nextConfig;
